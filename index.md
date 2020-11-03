@@ -1,10 +1,24 @@
-## Python Graphing Calculator Project
+# Python Graphing Calculator Project
 
 Find out more about me on [my site](https://sites.google.com/view/sherwin-jeromes-page/home)!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About the Project
 
-### Markdown
+This was an invite-only project designed by my AP Computer Science teacher for the top two performing students in each of his classes. The APCS cirriculum taught Java programming language, but this project was in Python. Furthermore, this project focussed on Lambda functions. Students were expected to have no programming experience in Python, and were to code only in terminal. IDEs were restricted so students could find and resolve errors by themselves.
+
+Terminal ran Python 3.7 at the time of this project. Students would store code on an external application such as Notes, Word Document, or Google Docs. 
+
+# Starting the Project
+
+Students were first taught what lambda functions were: small functions that could take _n_ number of arguments, but can only have one expression. Next, students were shown an example of very basic functions:
+
+
+
+## Challenges
+
+- Terminal is not very user friendly
+- Lambda Functions could only be a single line of code
+- 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
