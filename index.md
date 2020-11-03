@@ -8,11 +8,11 @@ This was an invite-only project designed by my AP Computer Science teacher for t
 
 Terminal ran Python 3.7 at the time of this project. Students would store code on an external application such as Notes, Word Document, or Google Docs. 
 
-# Starting the Project
+## Starting the Project
 
 Students were first taught what lambda functions were: small functions that could take _n_ number of arguments, but can only have one expression. Next, students were shown an example of very basic functions:
 ```markdown
-f = lambda x: 2 * x
+f = lambda x: 2 * x // returns the product of 2 and any given number
 ```
 
 
