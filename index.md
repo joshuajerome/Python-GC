@@ -11,6 +11,9 @@ Terminal ran Python 3.7 at the time of this project. Students would store code o
 # Starting the Project
 
 Students were first taught what lambda functions were: small functions that could take _n_ number of arguments, but can only have one expression. Next, students were shown an example of very basic functions:
+```markdown
+f = lambda x: 2 * x
+```
 
 
 
