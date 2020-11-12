@@ -234,6 +234,10 @@ OffAtEachPoint = lambda n: [abs(math.sin(n) - sin(n))] if n >= 2*math.pi else [a
 ```
 ## Test Code
 
+This test code is a list of the essential functions in a graphing calculator. If you plan to run the following code in terminal or other command line systems, I recommend inserting code one paragraph at a time as formatted below. 
+
+At the bottom of the test code, I have included some sample code and a video of me testing it.
+
 ```markdown
 import math
 remaining = lambda pa,pb: pa[len(pb):len(pa)] if len(pb) < len(pa) else pb[len(pa):len(pb)]
