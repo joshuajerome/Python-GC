@@ -269,4 +269,4 @@ OffAtEachPoint = lambda n: [abs(math.sin(n) - sin(n))] if n >= 2*math.pi else [a
 ```
 ## Video Example
 
-[![](https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg)](https://www.youtube.com/watch?v=CYzYW3znVHo&list=PL31HaAenzL5NA_1_7AqDwY1RZdEqE6jRM)
+[![](https://www.youtube.com/watch?v=CYzYW3znVHo&list=PL31HaAenzL5NA_1_7AqDwY1RZdEqE6jRM/maxresdefault.jpg)](https://www.youtube.com/watch?v=CYzYW3znVHo&list=PL31HaAenzL5NA_1_7AqDwY1RZdEqE6jRM)
