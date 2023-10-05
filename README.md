@@ -4,7 +4,7 @@ At the bottom of this page, there is a video turtorial. This video describes the
 
 1. Clone the repo
 2. Run ```python main.py```
-3. Copy resulting string into Demos (or other graphing utility)
+3. Copy resulting string into [Desmos](https://www.desmos.com/calculator) (or other graphing utility)
 
 ## About the Project
 
