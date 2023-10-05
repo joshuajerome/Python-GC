@@ -1,6 +1,10 @@
 # Python Graphing Calculator Project
 
-Find out more about me on [my site](https://sites.google.com/view/sherwin-jeromes-page/home)!
+At the bottom of this page, there is a video turtorial. This video describes the step by step process on how to run indiviudal steps in lagrange extrapolation. The steps listed in the video will work, but if you would like to quickly run this code, then:
+
+1. Clone the repo
+2. Run ```python main.py```
+3. Copy resulting string into Demos (or other graphing utility)
 
 ## About the Project
 
