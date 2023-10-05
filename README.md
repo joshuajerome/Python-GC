@@ -4,7 +4,7 @@ At the bottom of this page, there is a video turtorial. This video describes the
 
 1. Clone the repo
 2. Run ```python main.py```
-3. Copy resulting string into [Desmos](https://www.desmos.com/calculator) (or other graphing utility)
+3. Copy resulting string into [Desmos](https://www.desmos.com/calculator](https://www.desmos.com/calculator/rbkgf4espj)) (or other graphing utility)
 
 ## About the Project
 
@@ -30,7 +30,7 @@ Using this basic understanding of functions, the next step was creating a _doTwi
 
 Ultimately, students would use their new-found knowledge of Lambda functions to write code for a fully functional graphing calculator. Features of the calculator include:
 
-- returning a string with proper character syntax such that it could be copied and pasted into an online graphing utility such as [Desmos](https://www.desmos.com/calculator)
+- returning a string with proper character syntax such that it could be copied and pasted into an online graphing utility such as [Desmos](https://www.desmos.com/calculator/rbkgf4espj)
 - Lagrange Interpolation
 - Approxmation of Sine and Cosine up to 14 decimal points
 - Polynomial arithmetics
