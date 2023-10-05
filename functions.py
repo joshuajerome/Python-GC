@@ -1,7 +1,5 @@
 import math
 
-# `Used to access math.pi`
-
 doTwice = lambda f : lambda x: f(f(x))
 
 # `Executed a function twice`
@@ -125,7 +123,7 @@ createList = lambda f,s,e,t: [[s,f(s)]] if s==e else [[s,f(s)]] + createList(f,s
 
 # `Returns list of 10 points which are a result of derivative of function(1—>10)`
 
-dirFuncAt = lambda f,s,e,t: [[s,derivative(f,s)]] if s==e else [[s,derivative(f,s)]] + dirFuncAt(f,s+t,e)
+dirFuncAt = lambda f,s,e,t: [[s,derivative(f,s)]] if s==e else [[s,derivative(f,s)]] + dirFuncAt(f,s+t,e, t)
 
 # `Differentiate a function f on the interval s to e at an interval t`
 
@@ -148,7 +146,7 @@ cos = evaluate(interpolate(dirFuncAt(math.sin,0,4*math.pi,math.pi/2)))
 
 # `Creates Cosine by first creating a list of points differntiating Sine on an interval, then interpolating those points`
 
-graphCosine = polyStringTrig(interpolate(createList(cos,0,2*math.pi,math.pi/2)))
+graphCosine = polyString(interpolate(createList(cos,0,2*math.pi,math.pi/2)))
 
 # `Returns a string that represents Cosine`
 
@@ -188,5 +186,3 @@ howMuchOff = lambda n: 0 if n >= 2*math.pi else (abs(math.sin(n) - sin(n)) + how
 OffAtEachPoint = lambda n: [abs(math.sin(n) - sin(n))] if n >= 2*math.pi else [abs(math.sin(n) - sin(n))] + OffAtEachPoint(n+0.01)
 
 # `Function provides a list of all points used to create the Sine approximation`
-
-# This test code is a list of the essential functions in a graphing calculator. If you plan to run the following code in terminal or other command line systems, I recommend inserting code one paragraph at a time as formatted below. At the bottom of the test code, I have included some sample code and a video of me testing it.

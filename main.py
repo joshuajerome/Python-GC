@@ -1,4 +1,3 @@
-import functions
 import math
 
 remaining = lambda pa,pb: pa[len(pb):len(pa)] if len(pb) < len(pa) else pb[len(pa):len(pb)]
@@ -28,3 +27,6 @@ period = lambda f,a,b: lambda x: f(x) if (x >= a and x< b) else period(f,a,b)(x-
 sin = lambda x: period(evaluate(interpolate(createList(math.sin,0,2*math.pi,math.pi/5))),0,2*math.pi)(x)
 howMuchOff = lambda n: 0 if n >= 2*math.pi else (abs(math.sin(n) - sin(n)) + howMuchOff(n+0.1))
 OffAtEachPoint = lambda n: [abs(math.sin(n) - sin(n))] if n >= 2*math.pi else [abs(math.sin(n) - sin(n))] + OffAtEachPoint(n+0.01)
+
+if __name__ == "__main__":
+    print(f"Cosine: {graphCosine}")
